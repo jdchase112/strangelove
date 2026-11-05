@@ -1,4 +1,4 @@
-# strangelove-framework
-A framework for coding the Strangelove Cinemas website.
+# strangelove
+The final coded site for art cinema house Strangelove Cinema.
 
-[View Site](https://jdchase112.github.io/strangelove-framework)
+[View Site](https://jdchase112.github.io/strangelove)
