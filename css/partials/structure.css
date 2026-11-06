@@ -68,6 +68,7 @@
   li {
     margin: 0;
     padding: 0;
+    margin-top: -0.5em;
     font-family: var(--compressed);
     font-size: 1.25em;
     font-weight: 700;
@@ -385,7 +386,7 @@
     letter-spacing: -0.02em;
     font-size: clamp(0.95em, 3vw, 2em);
     line-height: 1.25;
-    max-width: 50ch;
+    max-width: 32.5ch;
     text-align: left;
     text-wrap: pretty;
 
@@ -414,11 +415,31 @@
   
 }
 
-/* SUBPAGE HERO STYLING */
 .sub-hero {
   background-color: var(--site-hero-background-color);
-  padding-block: 10em;
+  padding-top: 10em;
+  padding-bottom: 10em;
   color: var(--site-hero-text-color);
+}
+
+/* FILM SUBPAGE HERO STYLING */
+.film-sub-hero {
+  background-color: var(--site-hero-background-color);
+  padding-block: 0;
+  color: var(--site-hero-text-color);
+}
+
+.film-sub-hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: clamp(30svh, 80vw, 50svh);
+  width: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 50%, #161818 100%);
+  z-index: 50;
+  pointer-events: none;
+  
 }
 
 /* HERO WITH HEADER ON TOP */
@@ -432,8 +453,8 @@ body:has(.header-on-top-of-hero) .hero:has(.video-bg) {
 
 /* SECTION STYLING */
 section {
-  padding-block-start: clamp(2.5em, 6vw, 5em);
-  padding-block-end: clamp(1.5em, 6vw, 3em);
+  padding-block-start: clamp(2em, 6vw, 4em);
+  padding-block-end: clamp(1em, 6vw, 2em);
 }
 
 .sidebar nav {

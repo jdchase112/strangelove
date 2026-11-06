@@ -23,7 +23,7 @@
     display: block;
     inset: 0;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cpath d='M 24 0 L 24 48 M 0 24 L 48 24' fill='none' stroke='rgba(255,255,255,0.2)' stroke-width='2'/%3E%3C/svg%3E");
-    background-size: clamp(1.5rem, 5vw, 3em);
+    /* background-size: clamp(1.5rem, 5vw, 3em); */
     background-position: center;
 
     mask-image: radial-gradient(
@@ -33,6 +33,78 @@
     );
 
     pointer-events: none;
+}
+
+.square {
+    width: 1248px;
+    height: 625px;
+    background-color: transparent;
+    /* border: 2px solid white; */
+    position: absolute;
+    top: calc(50% - 3px);
+    left: 50%;
+    translate: -50% -50%;
+    z-index: 100;
+
+    .top-left {
+        width: 98px;
+        height: 98px;
+        position: absolute;
+        top: 0px;
+        left: -2px;
+        border-top: 3px solid white;
+        border-left: 3px solid white;
+    }
+
+    .top-right {
+        width: 98px;
+        height: 98px;
+        position: absolute;
+        top: 0px;
+        right: -2px;
+        border-top: 3px solid white;
+        border-right: 3px solid white;
+    }
+
+    .bottom-left {
+        width: 98px;
+        height: 98px;
+        position: absolute;
+        bottom: -2px;
+        left: -2px;
+        border-bottom: 3px solid white;
+        border-left: 3px solid white;
+    }
+
+    .bottom-right {
+        width: 98px;
+        height: 98px;
+        position: absolute;
+        bottom: -2px;
+        right: -2px;
+        border-bottom: 3px solid white;
+        border-right: 3px solid white;
+    }
+
+    @media (width <= 1280px) {
+        .top-left {
+            border: none;
+        }
+
+        .top-right {
+            border: none;
+        }
+
+        .bottom-left {
+            border: none;
+        }
+
+        .bottom-right {
+            border: none;
+        }
+
+    }
+
 }
 
 /* GRID BACKGROUND EVENTS */

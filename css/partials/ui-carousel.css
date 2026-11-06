@@ -180,6 +180,11 @@
 
 .movie-card {
   transition: transform 0.15s ease-out;
+
+  a {
+    text-decoration: none;
+  }
+  
 }
 
 .movie-card:hover {
