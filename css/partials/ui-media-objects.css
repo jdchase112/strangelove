@@ -14,11 +14,6 @@
         height: 156px;
         object-fit: cover;
         object-position: center;
-
-        @media (width <=768px) {
-            height: 100%;
-        }
-
     }
 
     .card-border {
@@ -77,7 +72,6 @@
 
     .card-border {
         height: 100%;
-        /* max-width: 440px; */
     }
 
     .row {
