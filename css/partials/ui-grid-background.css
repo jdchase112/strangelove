@@ -23,7 +23,7 @@
     display: block;
     inset: 0;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cpath d='M 24 0 L 24 48 M 0 24 L 48 24' fill='none' stroke='rgba(255,255,255,0.2)' stroke-width='2'/%3E%3C/svg%3E");
-    /* background-size: clamp(1.5rem, 5vw, 3em); */
+    background-size: clamp(1.5rem, 5vw, 3em);
     background-position: center;
 
     mask-image: radial-gradient(
@@ -45,6 +45,7 @@
     left: 50%;
     translate: -50% -50%;
     z-index: 100;
+    pointer-events: none;
 
     .top-left {
         width: 98px;
@@ -87,6 +88,25 @@
     }
 
     @media (width <= 1280px) {
+        .top-left {
+            border: none;
+        }
+
+        .top-right {
+            border: none;
+        }
+
+        .bottom-left {
+            border: none;
+        }
+
+        .bottom-right {
+            border: none;
+        }
+
+    }
+
+    @media (height <= 735px) {
         .top-left {
             border: none;
         }
