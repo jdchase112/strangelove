@@ -107,6 +107,23 @@ document.querySelectorAll('.film-page-card').forEach((card) => {
     });
 });
 
+document.querySelectorAll('.movie-sub-card').forEach((card) => {
+    card.addEventListener('mouseenter', () => {
+        let randomIndex;
+
+        // Pick a new index until it differs from the last one
+        do {
+            randomIndex = Math.floor(Math.random() * borderColors.length);
+        } while (randomIndex === lastColorIndex);
+
+        // Save the current index for the next check
+        lastColorIndex = randomIndex;
+
+        const randomColor = borderColors[randomIndex];
+        card.style.setProperty('--hover-border-color', randomColor);
+    });
+});
+
 // REMOVE SPLASH DELAY
 // setTimeout(() => {
 //     document.documentElement.style.setProperty("--splash-delay", "0.2s");

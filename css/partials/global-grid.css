@@ -73,6 +73,11 @@
             >*:last-child{order: 1}
         }
 
+        /* BOTTOM ALIGNMENT HELPER */
+        &.bottom-align {
+            align-items: end;
+        }
+
     }
 
 }

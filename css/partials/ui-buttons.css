@@ -271,7 +271,7 @@
 }
 
 /* ICON BUTTON */
-.icon-button {
+.blue-icon-button {
 
     display: inline-flex;
     background-color: var(--blue-button-bg, black);
@@ -291,6 +291,11 @@
         background-color: var(--blue-button-bg-hover, black);
         border: 2px solid var(--blue-button-bg-hover, black);
         color: var(--blue-button-text-hover, white);
+
+        path {
+            fill: var(--blue-button-text-hover);
+        }
+
     }
 
 }
