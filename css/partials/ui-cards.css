@@ -147,10 +147,6 @@
     transform: scale(1.015);
 }
 
-.movie-sub-card {
-    box-shadow: 5px 7.5px 20px 3px var(--strangelove-primary-background);
-}
-
 .movie-sub-card:hover .poster-border::after {
   inset: 0;
   border-style: solid;
@@ -251,6 +247,10 @@
 
 }
 
+.showtime-card:hover {
+    transform: scale(1.0075);
+}
+
 .showtime-home-card {
     padding: 1em 1.5em 1.5em 1.25em;
     display: block;
@@ -323,7 +323,10 @@
         font-size: clamp(0.765em, 3vw, 0.875em);
     }
 
+}
 
+.showtime-home-card:hover {
+    transform: scale(1.0075);
 }
 
 .caption {

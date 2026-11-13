@@ -15,11 +15,13 @@
     color: var(--blue-button-text);
     font-weight: 500;
     text-decoration: none;
+    transition: transform 0.15s ease-out;
 
     &:hover {
         background-color: var(--blue-button-bg-hover, black);
         border: 2px solid var(--blue-button-bg-hover, black);
         color: var(--blue-button-text-hover, white);
+        transform: scale(1.025);
     }
 
 }
@@ -37,11 +39,13 @@
     color: var(--blue-button-bg, black);
     font-weight: 500;
     text-decoration: none;
+    transition: transform 0.15s ease-out;
 
     &:hover {
         background-color: var(--blue-button-bg-hover, black);
         border: 2px solid var(--blue-button-bg-hover, black);
         color: var(--blue-button-text-hover, white);
+        transform: scale(1.025);
     }
 
 }
@@ -60,11 +64,13 @@
     font-weight: 500;
     text-decoration: none;
     font-size: 0.875em;
+    transition: transform 0.15s ease-out;
 
     &:hover {
         background-color: var(--blue-button-bg-hover, black);
         border: 2px solid var(--blue-button-bg-hover, black);
         color: var(--blue-button-text-hover, white);
+        transform: scale(1.025);
     }
 
 }
@@ -82,11 +88,13 @@
     color: var(--red-button-text);
     font-weight: 500;
     text-decoration: none;
+    transition: transform 0.15s ease-out;
 
     &:hover {
         background-color: var(--red-button-bg-hover, black);
         border: 2px solid var(--red-button-bg-hover, black);
         color: var(--red-button-text-hover, white);
+        transform: scale(1.025);
     }
 
 }
@@ -104,11 +112,13 @@
     color: var(--red-button-bg, black);
     font-weight: 500;
     text-decoration: none;
+    transition: transform 0.15s ease-out;
 
     &:hover {
         background-color: var(--red-button-bg-hover, black);
         border: 2px solid var(--red-button-bg-hover, black);
         color: var(--red-button-text-hover, white);
+        transform: scale(1.025);
     }
 
 }
@@ -127,11 +137,13 @@
     font-weight: 500;
     text-decoration: none;
     font-size: 0.875em;
+    transition: transform 0.15s ease-out;
 
     &:hover {
         background-color: var(--red-button-bg-hover, black);
         border: 2px solid var(--red-button-bg-hover, black);
         color: var(--red-button-text-hover, white);
+        transform: scale(1.025);
     }
 
 }
@@ -149,11 +161,13 @@
     color: var(--yellow-button-text);
     font-weight: 500;
     text-decoration: none;
+    transition: transform 0.15s ease-out;
 
     &:hover {
         background-color: var(--yellow-button-bg-hover, black);
         border: 2px solid var(--yellow-button-bg-hover, black);
         color: var(--yellow-button-text-hover, white);
+        transform: scale(1.025);
     }
 
 }
@@ -171,11 +185,13 @@
     color: var(--yellow-button-bg, black);
     font-weight: 500;
     text-decoration: none;
+    transition: transform 0.15s ease-out;
 
     &:hover {
         background-color: var(--yellow-button-bg-hover, black);
         border: 2px solid var(--yellow-button-bg-hover, black);
         color: var(--yellow-button-text-hover, white);
+        transform: scale(1.025);
     }
 
 }
@@ -194,11 +210,13 @@
     font-weight: 500;
     text-decoration: none;
     font-size: 0.875em;
+    transition: transform 0.15s ease-out;
 
     &:hover {
         background-color: var(--yellow-button-bg-hover, black);
         border: 2px solid var(--yellow-button-bg-hover, black);
         color: var(--yellow-button-text-hover, white);
+        transform: scale(1.025);
     }
 
 }
@@ -216,11 +234,13 @@
     color: var(--white-button-text);
     font-weight: 500;
     text-decoration: none;
+    transition: transform 0.15s ease-out;
 
     &:hover {
         background-color: var(--white-button-bg-hover, black);
         border: 2px solid var(--white-button-bg-hover, black);
         color: var(--white-button-text-hover, white);
+        transform: scale(1.025);
     }
 
 }
@@ -238,11 +258,13 @@
     color: var(--white-button-bg, black);
     font-weight: 500;
     text-decoration: none;
+    transition: transform 0.15s ease-out;
 
     &:hover {
         background-color: var(--white-button-bg-hover, black);
         border: 2px solid var(--white-button-bg-hover, black);
         color: var(--white-button-text-hover, white);
+        transform: scale(1.025);
     }
 
 }
@@ -261,11 +283,13 @@
     font-weight: 500;
     text-decoration: none;
     font-size: 0.875em;
+    transition: transform 0.15s ease-out;
 
     &:hover {
         background-color: var(--white-button-bg-hover, black);
         border: 2px solid var(--white-button-bg-hover, black);
         color: var(--white-button-text-hover, white);
+        transform: scale(1.025);
     }
 
 }
@@ -286,11 +310,13 @@
     align-items: center;
     gap: 0.65em;
     font-size: 1.25em;
+    transition: transform 0.15s ease-out;
 
     &:hover {
         background-color: var(--blue-button-bg-hover, black);
         border: 2px solid var(--blue-button-bg-hover, black);
         color: var(--blue-button-text-hover, white);
+        transform: scale(1.025);
 
         path {
             fill: var(--blue-button-text-hover);
@@ -304,7 +330,7 @@
 .button-group {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.275em;
+    gap: 0.5em;
     
     & >* {
         margin-bottom: 0;
