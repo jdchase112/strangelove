@@ -309,7 +309,7 @@
     text-decoration: none;
     align-items: center;
     gap: 0.65em;
-    font-size: 1.25em;
+    font-size: clamp(0.8em, 2vw, 1.25em);
     transition: transform 0.15s ease-out;
 
     &:hover {
