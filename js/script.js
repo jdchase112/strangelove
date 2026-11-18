@@ -48,6 +48,19 @@ if (gridBg2) {
     });
 }
 
+const gridBg3 = document.querySelector('.sub-grid-background');
+
+if (gridBg3) {
+    window.addEventListener('mousemove', (e) => {
+        const rect = gridBg3.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+
+        gridBg3.style.setProperty('--mouse-x', `${x}px`);
+        gridBg3.style.setProperty('--mouse-y', `${y}px`);
+    });
+}
+
 const eventsMask = document.querySelector('.events-mask');
 
 if (eventsMask) {

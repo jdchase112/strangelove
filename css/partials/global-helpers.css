@@ -43,7 +43,7 @@ hr {
 
 }
 
-/* FILM SUB BACKGROUND */
+/* FILM SUB IMG BACKGROUND */
 .film-sub-bg {
     position: relative;
     min-height: clamp(275px, 33.5vw, 550px);
@@ -73,6 +73,48 @@ hr {
         left: -15px;
         width: calc(100% + 30px);
         height: calc(clamp(275px, 33.5vw, 550px) + 30px);
+        z-index: 10;
+        filter: blur(5px);
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            max-width: none;
+        }
+
+    }
+
+}
+
+/* SUB PAGE IMG BACKGROUND */
+.sub-page-bg {
+    position: relative;
+    min-height: clamp(275px, 33.5vw, 500px);
+    display: grid;
+
+    .sub-hero-content {
+        padding-block-start: 8em;
+        padding-block-end: 3em;
+        z-index: 100;
+        position: relative;
+    }
+
+    .sub-page-clipper {
+        overflow: clip;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: clamp(275px, 33.5vw, 500px);
+    }
+
+    .sub-page-wrapper {
+        position: absolute;
+        top: -15px;
+        left: -15px;
+        width: calc(100% + 30px);
+        height: calc(clamp(275px, 33.5vw, 500px) + 30px);
         z-index: 10;
         filter: blur(5px);
 
