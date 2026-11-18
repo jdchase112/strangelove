@@ -358,7 +358,7 @@
 
 /* HERO SECTION STYLING */
 .hero {
-  /* background-color: var(--site-hero-background-color); */
+  background-color: var(--site-hero-background-color);
   padding-block: 10em;
   color: var(--site-hero-text-color);
 
