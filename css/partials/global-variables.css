@@ -28,7 +28,7 @@
     --strangelove-light-orange: #F8BFA5;
     --strangelove-orange: #E6643B;
     
-    --strangelove-light-pink: #D9B7BD;
+    --strangelove-light-pink: #dfc2c7;
     --strangelove-pink: #BF8A94;
 
     --strangelove-white: #EEEEEE;
@@ -68,6 +68,11 @@
     --yellow-button-text: var(--strangelove-black);
     --yellow-button-bg-hover: var(--strangelove-dark-yellow);
     --yellow-button-text-hover: var(--strangelove-white);
+
+    --pink-button-bg: var(--strangelove-pink);
+    --pink-button-text: var(--strangelove-black);
+    --pink-button-bg-hover: var(--strangelove-dark-pink);
+    --pink-button-text-hover: var(--strangelove-white);
 
     /* SANS SERIF FONT FAMILY */
     --sans-serif: "Balto", Helvetica, Arial, sans-serif;
