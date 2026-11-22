@@ -923,7 +923,7 @@ section {
   }
 
   h1 {
-    font-size: 4.375em;
+    font-size: clamp(2.5em, 10vw, 4.375em);
     text-transform: uppercase;
 
     .color-text {
