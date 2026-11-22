@@ -32,7 +32,7 @@
 .page-films .site-logo:hover {
 
   svg {
-    fill: var(--strangelove-lightest-blue);
+    fill: var(--strangelove-white);
   }
   
 }
