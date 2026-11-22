@@ -37,6 +37,25 @@
   
 }
 
+.page-film-sub .site-logo {
+  
+  svg {
+    fill: var(--strangelove-light-pink);
+    transition: fill 0.3s ease-in-out;
+  }
+
+}
+
+.page-film-sub .site-logo:hover {
+
+  svg {
+    fill: var(--strangelove-white);
+  }
+  
+}
+
+
+
 /* SITE HEADER STYLING */
 .site-header {
   background-color: var(--site-header-background-color, white);
