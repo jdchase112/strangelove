@@ -59,8 +59,14 @@
                 <div class="video-bg-content">
                     <div class="container-1200">
                         <a href="index.html">
-                            <img id="strangelove-logo-anim" src="media/strangelove-logo-anim.svg"
-                                class="fade-in-from-top" width="1000" height="196" alt="Strangelove Cinema Logo">
+                            <div class="container-1000" style="padding-inline: 0;">
+                                <video id="strangelove-logo-anim" autoplay muted playsinline class="fade-in-from-top">
+                                    <source src="media/strangelove-logo-anim.webm" type="video/webm">
+                                    <img id="strangelove-logo-fallback" src="media/strangelove-logo-fallback.svg"
+                                        class="fade-in-from-top" width="1000" height="196"
+                                        alt="Strangelove Cinema Logo">
+                                </video>
+                            </div>
                         </a>
                         <div class="hero-text-parent fade-in-from-top" style="--animation-delay: 0.35s;">
                             <h1> <strong>Strangelove</strong> is an independent <strong>art cinema
@@ -79,10 +85,10 @@
                 </div>
                 <div class="grid-background-hero fade-in" style="--animation-delay: 0.05s;"></div>
                 <div class="square">
-                    <div class="top-left fade-in --animation-delay: 0.5s;"></div>
-                    <div class="top-right fade-in --animation-delay: 0.5s;"></div>
-                    <div class="bottom-left fade-in --animation-delay: 0.5s;"></div>
-                    <div class="bottom-right fade-in --animation-delay: 0.5s;"></div>
+                    <div class="top-left fade-in" style="--animation-delay: 0.5s;"></div>
+                    <div class="top-right fade-in" style="--animation-delay: 0.5s;"></div>
+                    <div class="bottom-left fade-in" style="--animation-delay: 0.5s;"></div>
+                    <div class="bottom-right fade-in" style="--animation-delay: 0.5s;"></div>
                 </div>
         </section>
 
