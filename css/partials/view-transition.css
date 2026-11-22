@@ -2,28 +2,57 @@
 ------ VIEW TRANSITION ------
 -------------------------- */
 
-/* VIEW TRANSITION TEST */
-/* @view-transition {
+@view-transition {
   navigation: auto;
-} */
-
-/* .movie-card {
-    view-transition-name: moviecard;
 }
 
-::view-transition-group(moviecard) {
-    animation-duration: 5s;
+:root {
+  --transition-duration: 420ms;
+  --transition-ease: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-::view-transition-old(moviecard), 
-::view-transition-new(moviecard) {
-    block-size: 100%;
+.header {
+    view-transition-name: site-header;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1em;
+    z-index: 10;
 }
 
-.page-film .movie-card {
-    scale: 1.5;
-} */
+.hero {
+    view-transition-name: hero;
+}
 
-/* :root {
-    --view-animation-duration: 2s;
-} */
+&.boogie-nights {
+    view-transition-name: boogie-nights;
+}
+
+/* View transition animations */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 220ms;
+  animation-timing-function: ease;
+}
+
+::view-transition-group(hero),
+::view-transition-group(boogie-nights),
+::view-transition-group(site-header) {
+  animation-duration: var(--transition-duration);
+  animation-timing-function: var(--transition-ease);
+}
+
+::view-transition-old(hero),
+::view-transition-new(hero) {
+  height: 100%;
+  overflow: clip;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation-duration: 0.01ms !important;
+  }
+}
