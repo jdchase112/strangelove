@@ -3,7 +3,6 @@
 // IMPORT WEB COMPONENTS
 import "../components/site-header.js";
 import "../components/site-footer.js";
-// import "../components/carousel.js";
 
 // ENABLE SCROLL TRIGGERED ANIMATIONS
 const myobserver = new IntersectionObserver((entries) => {
