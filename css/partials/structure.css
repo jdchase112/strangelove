@@ -407,11 +407,11 @@
     z-index: 75;
   }
 
-  img {
+  svg {
     transition: scale 0.2s ease-in-out;
   }
 
-  img:hover {
+  svg:hover {
     scale: 1.01;
   }
 
@@ -424,6 +424,7 @@
     max-width: 32.5ch;
     text-align: left;
     text-wrap: pretty;
+    margin-top: -0.25em;
 
     strong {
       font-weight: 500;
