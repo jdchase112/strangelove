@@ -21,8 +21,9 @@ class siteHeader extends HTMLElement {
                 <span class="menu-button-text">Menu</span>
             </button>
             <ul>
-                <li><a href="films.html">Films</a></li>
-                <li><a href="style-guide.html">Style Guide</a></li>
+                <li class="home-nav-link"><a href="index.html" >Home</a></li>
+                <li class="films-nav-link"><a href="films.html">Films</a></li>
+                <li class="events-nav-link"><a href="events.html">Events</a></li>
             </ul>
         </nav>
     </header>

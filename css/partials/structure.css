@@ -2,60 +2,6 @@
 ------ STRUCTURE ------
 --------------------- */
 
-/* SITE LOGO STYLING */
-.page-home .site-logo {
-  
-  svg {
-    fill: var(--strangelove-white);
-    transition: fill 0.3s ease-in-out;
-  }
-
-}
-
-.page-home .site-logo:hover {
-
-  svg {
-    fill: var(--strangelove-white);
-  }
-  
-}
-
-.page-films .site-logo {
-  
-  svg {
-    fill: var(--strangelove-light-blue);
-    transition: fill 0.3s ease-in-out;
-  }
-
-}
-
-.page-films .site-logo:hover {
-
-  svg {
-    fill: var(--strangelove-white);
-  }
-  
-}
-
-.page-film-sub .site-logo {
-  
-  svg {
-    fill: var(--strangelove-white);
-    transition: fill 0.3s ease-in-out;
-  }
-
-}
-
-.page-film-sub .site-logo:hover {
-
-  svg {
-    fill: var(--strangelove-white);
-  }
-  
-}
-
-
-
 /* SITE HEADER STYLING */
 .site-header {
   background-color: var(--site-header-background-color, white);
@@ -71,7 +17,6 @@
   /* REMOVE UNDERLINE FROM ALL HEADER TEXT LINKS */
   a {
     text-decoration: none;
-    color: var(--site-header-text-color, black);
   }
 
   /* SITE LOGO */
@@ -132,11 +77,6 @@
 
   a {
       display: inline-block;
-      transition: transform 0.2s ease-in-out;
-    }
-
-    a:hover {
-      transform: scale(1.075);
     }
 
   .menu-button {

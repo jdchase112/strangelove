@@ -49,6 +49,10 @@
 @import url(partials/animation.css);
 @import url(partials/view-transition.css);
 
+/* STYLING */
+@import url(partials/header-hover.css);
+
+
 /* -------------------------
 ------ CUSTOM STYLING ------
 -------------------------- */

@@ -1,0 +1,140 @@
+/* HOME PAGE HEADER STYLING */
+  
+.page-home {
+  
+    .site-logo {
+
+        svg {
+            fill: var(--strangelove-white);
+            transition: fill 0.3s ease-in-out;
+        }
+
+    }
+
+    .site-logo:hover {
+
+        svg {
+            fill: var(--strangelove-white);
+        }
+        
+    }
+
+
+}
+
+/* SUB PAGE HEADER STYLING */
+
+.page-sub {
+  
+    .site-logo {
+
+        svg {
+            fill: var(--strangelove-white);
+            transition: fill 0.3s ease-in-out;
+        }
+
+    }
+
+    .site-logo:hover {
+
+        svg {
+            fill: var(--strangelove-white);
+        }
+        
+    }
+
+}
+
+/* FILMS PAGE HEADER STYLING */
+
+.page-films {
+  
+    .site-logo {
+
+        svg {
+            fill: var(--strangelove-light-blue);
+            transition: fill 0.3s ease-in-out;
+        }
+
+    }
+
+    .site-logo:hover {
+
+        svg {
+            fill: var(--strangelove-white);
+        }
+        
+    }
+
+
+}
+
+
+/* EVENTS PAGE HEADER STYLING */
+
+.page-events {
+  
+    .site-logo {
+
+        svg {
+            fill: var(--strangelove-light-yellow);
+            transition: fill 0.3s ease-in-out;
+        }
+
+    }
+
+    .site-logo:hover {
+
+        svg {
+            fill: var(--strangelove-white);
+        }
+        
+    }
+
+}
+
+header {
+
+    .home-nav-link {
+
+        a {
+            color: var(--strangelove-white, black);
+            transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+        }
+
+        a:hover {
+            color: var(--strangelove-light-pink);
+            transform: scale(1.075);
+        }
+        
+    }
+
+    .films-nav-link {
+
+        a {
+            color: var(--strangelove-white, black);
+            transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+        }
+
+        a:hover {
+            color: var(--strangelove-light-blue);
+            transform: scale(1.075);
+        }
+        
+    }
+
+    .events-nav-link {
+
+        a {
+            color: var(--strangelove-white, black);
+            transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+        }
+
+        a:hover {
+            color: var(--strangelove-light-yellow);
+            transform: scale(1.075);
+        }
+        
+    }
+
+}
