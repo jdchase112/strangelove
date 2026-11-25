@@ -99,12 +99,11 @@ header {
 
         a {
             color: var(--strangelove-white, black);
-            transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+            transition: color 0.1s ease-in-out;
         }
 
         a:hover {
             color: var(--strangelove-light-pink);
-            transform: scale(1.075);
         }
         
     }
@@ -113,12 +112,11 @@ header {
 
         a {
             color: var(--strangelove-white, black);
-            transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+            transition: color 0.1s ease-in-out;
         }
 
         a:hover {
             color: var(--strangelove-light-blue);
-            transform: scale(1.075);
         }
         
     }
@@ -127,12 +125,11 @@ header {
 
         a {
             color: var(--strangelove-white, black);
-            transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+            transition: color 0.1s ease-in-out;
         }
 
         a:hover {
             color: var(--strangelove-light-yellow);
-            transform: scale(1.075);
         }
         
     }

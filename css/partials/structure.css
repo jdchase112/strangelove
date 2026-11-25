@@ -38,7 +38,7 @@
   }
 
   .site-logo:hover {
-    scale: 1.075;
+    scale: 1.05;
   }
 
   /* SITE NAV */
@@ -366,12 +366,13 @@
     z-index: 75;
   }
 
-  svg {
-    transition: scale 0.2s ease-in-out;
+  #strangelove-logo-anim {
+    margin-top: -3em;
+    transition: scale 0.15s ease-in-out;
   }
 
-  svg:hover {
-    scale: 1.01;
+  #strangelove-logo-anim:hover {
+    scale: 1.005;
   }
 
   h1 {
@@ -383,7 +384,7 @@
     max-width: 32.5ch;
     text-align: left;
     text-wrap: pretty;
-    margin-top: -0.25em;
+    margin-top: -0.65em;
 
     strong {
       font-weight: 500;
@@ -404,7 +405,7 @@
   left: 0;
   height: clamp(70svh, 80vw, 105svh);
   width: 100%;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.00) 85%, #161818 125%);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.00) 85%, #161818 105%);
   z-index: 50;
   pointer-events: none;
   
